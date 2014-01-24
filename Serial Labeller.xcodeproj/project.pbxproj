@@ -1,0 +1,479 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		DC80DA1C1892AEC300E192C0 /* Cocoa.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = DC80DA1B1892AEC300E192C0 /* Cocoa.framework */; };
+		DC80DA261892AEC300E192C0 /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = DC80DA241892AEC300E192C0 /* InfoPlist.strings */; };
+		DC80DA281892AEC300E192C0 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = DC80DA271892AEC300E192C0 /* main.m */; };
+		DC80DA2C1892AEC300E192C0 /* Credits.rtf in Resources */ = {isa = PBXBuildFile; fileRef = DC80DA2A1892AEC300E192C0 /* Credits.rtf */; };
+		DC80DA2F1892AEC300E192C0 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = DC80DA2E1892AEC300E192C0 /* AppDelegate.m */; };
+		DC80DA321892AEC300E192C0 /* MainMenu.xib in Resources */ = {isa = PBXBuildFile; fileRef = DC80DA301892AEC300E192C0 /* MainMenu.xib */; };
+		DC80DA341892AEC300E192C0 /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = DC80DA331892AEC300E192C0 /* Images.xcassets */; };
+		DC80DA3B1892AEC300E192C0 /* XCTest.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = DC80DA3A1892AEC300E192C0 /* XCTest.framework */; };
+		DC80DA3C1892AEC300E192C0 /* Cocoa.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = DC80DA1B1892AEC300E192C0 /* Cocoa.framework */; };
+		DC80DA441892AEC300E192C0 /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = DC80DA421892AEC300E192C0 /* InfoPlist.strings */; };
+		DC80DA461892AEC300E192C0 /* Serial_LabellerTests.m in Sources */ = {isa = PBXBuildFile; fileRef = DC80DA451892AEC300E192C0 /* Serial_LabellerTests.m */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		DC80DA3D1892AEC300E192C0 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = DC80DA101892AEC300E192C0 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = DC80DA171892AEC300E192C0;
+			remoteInfo = "Serial Labeller";
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		DC80DA181892AEC300E192C0 /* Serial Labeller.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "Serial Labeller.app"; sourceTree = BUILT_PRODUCTS_DIR; };
+		DC80DA1B1892AEC300E192C0 /* Cocoa.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Cocoa.framework; path = System/Library/Frameworks/Cocoa.framework; sourceTree = SDKROOT; };
+		DC80DA1E1892AEC300E192C0 /* AppKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = AppKit.framework; path = System/Library/Frameworks/AppKit.framework; sourceTree = SDKROOT; };
+		DC80DA1F1892AEC300E192C0 /* CoreData.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreData.framework; path = System/Library/Frameworks/CoreData.framework; sourceTree = SDKROOT; };
+		DC80DA201892AEC300E192C0 /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
+		DC80DA231892AEC300E192C0 /* Serial Labeller-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "Serial Labeller-Info.plist"; sourceTree = "<group>"; };
+		DC80DA251892AEC300E192C0 /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
+		DC80DA271892AEC300E192C0 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		DC80DA291892AEC300E192C0 /* Serial Labeller-Prefix.pch */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "Serial Labeller-Prefix.pch"; sourceTree = "<group>"; };
+		DC80DA2B1892AEC300E192C0 /* en */ = {isa = PBXFileReference; lastKnownFileType = text.rtf; name = en; path = en.lproj/Credits.rtf; sourceTree = "<group>"; };
+		DC80DA2D1892AEC300E192C0 /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
+		DC80DA2E1892AEC300E192C0 /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
+		DC80DA311892AEC300E192C0 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = Base; path = Base.lproj/MainMenu.xib; sourceTree = "<group>"; };
+		DC80DA331892AEC300E192C0 /* Images.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Images.xcassets; sourceTree = "<group>"; };
+		DC80DA391892AEC300E192C0 /* Serial LabellerTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "Serial LabellerTests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
+		DC80DA3A1892AEC300E192C0 /* XCTest.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = XCTest.framework; path = Library/Frameworks/XCTest.framework; sourceTree = DEVELOPER_DIR; };
+		DC80DA411892AEC300E192C0 /* Serial LabellerTests-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "Serial LabellerTests-Info.plist"; sourceTree = "<group>"; };
+		DC80DA431892AEC300E192C0 /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
+		DC80DA451892AEC300E192C0 /* Serial_LabellerTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = Serial_LabellerTests.m; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		DC80DA151892AEC300E192C0 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				DC80DA1C1892AEC300E192C0 /* Cocoa.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		DC80DA361892AEC300E192C0 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				DC80DA3C1892AEC300E192C0 /* Cocoa.framework in Frameworks */,
+				DC80DA3B1892AEC300E192C0 /* XCTest.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		DC80DA0F1892AEC300E192C0 = {
+			isa = PBXGroup;
+			children = (
+				DC80DA211892AEC300E192C0 /* Serial Labeller */,
+				DC80DA3F1892AEC300E192C0 /* Serial LabellerTests */,
+				DC80DA1A1892AEC300E192C0 /* Frameworks */,
+				DC80DA191892AEC300E192C0 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		DC80DA191892AEC300E192C0 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				DC80DA181892AEC300E192C0 /* Serial Labeller.app */,
+				DC80DA391892AEC300E192C0 /* Serial LabellerTests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		DC80DA1A1892AEC300E192C0 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				DC80DA1B1892AEC300E192C0 /* Cocoa.framework */,
+				DC80DA3A1892AEC300E192C0 /* XCTest.framework */,
+				DC80DA1D1892AEC300E192C0 /* Other Frameworks */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		DC80DA1D1892AEC300E192C0 /* Other Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				DC80DA1E1892AEC300E192C0 /* AppKit.framework */,
+				DC80DA1F1892AEC300E192C0 /* CoreData.framework */,
+				DC80DA201892AEC300E192C0 /* Foundation.framework */,
+			);
+			name = "Other Frameworks";
+			sourceTree = "<group>";
+		};
+		DC80DA211892AEC300E192C0 /* Serial Labeller */ = {
+			isa = PBXGroup;
+			children = (
+				DC80DA2D1892AEC300E192C0 /* AppDelegate.h */,
+				DC80DA2E1892AEC300E192C0 /* AppDelegate.m */,
+				DC80DA301892AEC300E192C0 /* MainMenu.xib */,
+				DC80DA331892AEC300E192C0 /* Images.xcassets */,
+				DC80DA221892AEC300E192C0 /* Supporting Files */,
+			);
+			path = "Serial Labeller";
+			sourceTree = "<group>";
+		};
+		DC80DA221892AEC300E192C0 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				DC80DA231892AEC300E192C0 /* Serial Labeller-Info.plist */,
+				DC80DA241892AEC300E192C0 /* InfoPlist.strings */,
+				DC80DA271892AEC300E192C0 /* main.m */,
+				DC80DA291892AEC300E192C0 /* Serial Labeller-Prefix.pch */,
+				DC80DA2A1892AEC300E192C0 /* Credits.rtf */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		DC80DA3F1892AEC300E192C0 /* Serial LabellerTests */ = {
+			isa = PBXGroup;
+			children = (
+				DC80DA451892AEC300E192C0 /* Serial_LabellerTests.m */,
+				DC80DA401892AEC300E192C0 /* Supporting Files */,
+			);
+			path = "Serial LabellerTests";
+			sourceTree = "<group>";
+		};
+		DC80DA401892AEC300E192C0 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				DC80DA411892AEC300E192C0 /* Serial LabellerTests-Info.plist */,
+				DC80DA421892AEC300E192C0 /* InfoPlist.strings */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		DC80DA171892AEC300E192C0 /* Serial Labeller */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = DC80DA491892AEC300E192C0 /* Build configuration list for PBXNativeTarget "Serial Labeller" */;
+			buildPhases = (
+				DC80DA141892AEC300E192C0 /* Sources */,
+				DC80DA151892AEC300E192C0 /* Frameworks */,
+				DC80DA161892AEC300E192C0 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = "Serial Labeller";
+			productName = "Serial Labeller";
+			productReference = DC80DA181892AEC300E192C0 /* Serial Labeller.app */;
+			productType = "com.apple.product-type.application";
+		};
+		DC80DA381892AEC300E192C0 /* Serial LabellerTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = DC80DA4C1892AEC300E192C0 /* Build configuration list for PBXNativeTarget "Serial LabellerTests" */;
+			buildPhases = (
+				DC80DA351892AEC300E192C0 /* Sources */,
+				DC80DA361892AEC300E192C0 /* Frameworks */,
+				DC80DA371892AEC300E192C0 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				DC80DA3E1892AEC300E192C0 /* PBXTargetDependency */,
+			);
+			name = "Serial LabellerTests";
+			productName = "Serial LabellerTests";
+			productReference = DC80DA391892AEC300E192C0 /* Serial LabellerTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		DC80DA101892AEC300E192C0 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0500;
+				ORGANIZATIONNAME = "Nanodesign Pty Ltd";
+				TargetAttributes = {
+					DC80DA381892AEC300E192C0 = {
+						TestTargetID = DC80DA171892AEC300E192C0;
+					};
+				};
+			};
+			buildConfigurationList = DC80DA131892AEC300E192C0 /* Build configuration list for PBXProject "Serial Labeller" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = DC80DA0F1892AEC300E192C0;
+			productRefGroup = DC80DA191892AEC300E192C0 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				DC80DA171892AEC300E192C0 /* Serial Labeller */,
+				DC80DA381892AEC300E192C0 /* Serial LabellerTests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		DC80DA161892AEC300E192C0 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				DC80DA261892AEC300E192C0 /* InfoPlist.strings in Resources */,
+				DC80DA341892AEC300E192C0 /* Images.xcassets in Resources */,
+				DC80DA2C1892AEC300E192C0 /* Credits.rtf in Resources */,
+				DC80DA321892AEC300E192C0 /* MainMenu.xib in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		DC80DA371892AEC300E192C0 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				DC80DA441892AEC300E192C0 /* InfoPlist.strings in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		DC80DA141892AEC300E192C0 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				DC80DA2F1892AEC300E192C0 /* AppDelegate.m in Sources */,
+				DC80DA281892AEC300E192C0 /* main.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		DC80DA351892AEC300E192C0 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				DC80DA461892AEC300E192C0 /* Serial_LabellerTests.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		DC80DA3E1892AEC300E192C0 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = DC80DA171892AEC300E192C0 /* Serial Labeller */;
+			targetProxy = DC80DA3D1892AEC300E192C0 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		DC80DA241892AEC300E192C0 /* InfoPlist.strings */ = {
+			isa = PBXVariantGroup;
+			children = (
+				DC80DA251892AEC300E192C0 /* en */,
+			);
+			name = InfoPlist.strings;
+			sourceTree = "<group>";
+		};
+		DC80DA2A1892AEC300E192C0 /* Credits.rtf */ = {
+			isa = PBXVariantGroup;
+			children = (
+				DC80DA2B1892AEC300E192C0 /* en */,
+			);
+			name = Credits.rtf;
+			sourceTree = "<group>";
+		};
+		DC80DA301892AEC300E192C0 /* MainMenu.xib */ = {
+			isa = PBXVariantGroup;
+			children = (
+				DC80DA311892AEC300E192C0 /* Base */,
+			);
+			name = MainMenu.xib;
+			sourceTree = "<group>";
+		};
+		DC80DA421892AEC300E192C0 /* InfoPlist.strings */ = {
+			isa = PBXVariantGroup;
+			children = (
+				DC80DA431892AEC300E192C0 /* en */,
+			);
+			name = InfoPlist.strings;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		DC80DA471892AEC300E192C0 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_ENABLE_OBJC_EXCEPTIONS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				MACOSX_DEPLOYMENT_TARGET = 10.9;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = macosx;
+			};
+			name = Debug;
+		};
+		DC80DA481892AEC300E192C0 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = YES;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_ENABLE_OBJC_EXCEPTIONS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				MACOSX_DEPLOYMENT_TARGET = 10.9;
+				SDKROOT = macosx;
+			};
+			name = Release;
+		};
+		DC80DA4A1892AEC300E192C0 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				COMBINE_HIDPI_IMAGES = YES;
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "Serial Labeller/Serial Labeller-Prefix.pch";
+				INFOPLIST_FILE = "Serial Labeller/Serial Labeller-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				WRAPPER_EXTENSION = app;
+			};
+			name = Debug;
+		};
+		DC80DA4B1892AEC300E192C0 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				COMBINE_HIDPI_IMAGES = YES;
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "Serial Labeller/Serial Labeller-Prefix.pch";
+				INFOPLIST_FILE = "Serial Labeller/Serial Labeller-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				WRAPPER_EXTENSION = app;
+			};
+			name = Release;
+		};
+		DC80DA4D1892AEC300E192C0 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(BUILT_PRODUCTS_DIR)/Serial Labeller.app/Contents/MacOS/Serial Labeller";
+				COMBINE_HIDPI_IMAGES = YES;
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(DEVELOPER_FRAMEWORKS_DIR)",
+					"$(inherited)",
+				);
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "Serial Labeller/Serial Labeller-Prefix.pch";
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				INFOPLIST_FILE = "Serial LabellerTests/Serial LabellerTests-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUNDLE_LOADER)";
+				WRAPPER_EXTENSION = xctest;
+			};
+			name = Debug;
+		};
+		DC80DA4E1892AEC300E192C0 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(BUILT_PRODUCTS_DIR)/Serial Labeller.app/Contents/MacOS/Serial Labeller";
+				COMBINE_HIDPI_IMAGES = YES;
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(DEVELOPER_FRAMEWORKS_DIR)",
+					"$(inherited)",
+				);
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "Serial Labeller/Serial Labeller-Prefix.pch";
+				INFOPLIST_FILE = "Serial LabellerTests/Serial LabellerTests-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUNDLE_LOADER)";
+				WRAPPER_EXTENSION = xctest;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		DC80DA131892AEC300E192C0 /* Build configuration list for PBXProject "Serial Labeller" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				DC80DA471892AEC300E192C0 /* Debug */,
+				DC80DA481892AEC300E192C0 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		DC80DA491892AEC300E192C0 /* Build configuration list for PBXNativeTarget "Serial Labeller" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				DC80DA4A1892AEC300E192C0 /* Debug */,
+				DC80DA4B1892AEC300E192C0 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+		DC80DA4C1892AEC300E192C0 /* Build configuration list for PBXNativeTarget "Serial LabellerTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				DC80DA4D1892AEC300E192C0 /* Debug */,
+				DC80DA4E1892AEC300E192C0 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = DC80DA101892AEC300E192C0 /* Project object */;
+}

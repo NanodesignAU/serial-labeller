@@ -1,0 +1,41 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<dict>
+	<key>IDESourceControlProjectFavoriteDictionaryKey</key>
+	<false/>
+	<key>IDESourceControlProjectIdentifier</key>
+	<string>91033A4E-C446-4BEB-A28A-CF4F6A2A1CFA</string>
+	<key>IDESourceControlProjectName</key>
+	<string>Serial Labeller</string>
+	<key>IDESourceControlProjectOriginsDictionary</key>
+	<dict>
+		<key>EBCF3D42-0D57-4CE0-99D8-4E41BAED9A92</key>
+		<string>https://github.com/NanodesignAU/serial-labeller.git</string>
+	</dict>
+	<key>IDESourceControlProjectPath</key>
+	<string>Serial Labeller/Serial Labeller.xcodeproj/project.xcworkspace</string>
+	<key>IDESourceControlProjectRelativeInstallPathDictionary</key>
+	<dict>
+		<key>EBCF3D42-0D57-4CE0-99D8-4E41BAED9A92</key>
+		<string>../../..</string>
+	</dict>
+	<key>IDESourceControlProjectURL</key>
+	<string>https://github.com/NanodesignAU/serial-labeller.git</string>
+	<key>IDESourceControlProjectVersion</key>
+	<integer>110</integer>
+	<key>IDESourceControlProjectWCCIdentifier</key>
+	<string>EBCF3D42-0D57-4CE0-99D8-4E41BAED9A92</string>
+	<key>IDESourceControlProjectWCConfigurations</key>
+	<array>
+		<dict>
+			<key>IDESourceControlRepositoryExtensionIdentifierKey</key>
+			<string>public.vcs.git</string>
+			<key>IDESourceControlWCCIdentifierKey</key>
+			<string>EBCF3D42-0D57-4CE0-99D8-4E41BAED9A92</string>
+			<key>IDESourceControlWCCName</key>
+			<string>SerialLabeller</string>
+		</dict>
+	</array>
+</dict>
+</plist>
